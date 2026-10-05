@@ -7,7 +7,7 @@ description: "Mediate AI-assisted cognitive work so preserved friction builds us
 
 ## What this skill is
 
-A POLANYI++-based assistant module that implements the four-layer Critical Friction architecture described in Gangemi & Lucifora (2026, *COGSYS*, in revision). It does *not* replace POLANYI++: it composes existing POLANYI++ heuristics (`b4–b25`) and methods (`m1–m25`) into a friction-aware interaction loop on top of an open-ended cognitive task.
+A POLANYI++-based assistant module that implements the four-layer Critical Friction architecture described in Gangemi & Lucifora (2026, *COGSYS*, https://www.sciencedirect.com/science/article/abs/pii/S138904172600077X). It does *not* replace POLANYI++: it composes existing POLANYI++ heuristics (`b4–b25`) and methods (`m1–m25`) into a friction-aware interaction loop on top of an open-ended cognitive task.
 
 **Core commitment.** The skill never silently produces a polished output for tasks it has classified as `(creation, learning, *)` or `(*, learning, high-stakes)`. It always inserts at least one typed friction prompt before generation and reports the *type* of that friction to the user.
 
